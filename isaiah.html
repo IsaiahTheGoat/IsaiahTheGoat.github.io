@@ -1,1 +1,92 @@
 <h1>I like to play basketball</h1>
+<!DOCTYPE html>
+
+<head>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<script src="/assets/jquery.js"></script>
+<style>
+body { 
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  background: #e1eaf0;
+}
+button {
+  margin: 40px;
+}
+input {
+  font-size: 24px;
+}
+.fill {
+  background: yellow;
+  color: red;
+  border-bottom: 2px blue solid;
+  font-family: 'Cabin Sketch', cursive;
+  padding: 0 6px;
+  margin: 4px;
+}
+</style>
+</head>
+
+<body>
+<div class="prompt"></div>
+<button>Next</button>
+<script>
+// List of prompts for the user
+var prompts = [
+	'Type your name',
+	'Type where you are from',
+	'Type Your favorite sport',
+	'Type Your favorite Video Game',
+	'Type Your favorite Food',
+	'Type Your favorite Drink',
+	'Type your favorite TV show',
+	'Type your favorite movie',
+	'Type what you want your future job to be',
+	'Type what school you go to',
+   ];
+
+var answers=[];
+// Keep track of current prompt we're on
+var currentPrompt = 0;
+ 
+// A function that will call the next prompt
+var nextPrompt = function() {
+  //if there's no answer in the form
+  if (currentPrompt != 0){
+    answers.push($('input').val());
+  }
+	// if there is a next prompt
+	if (currentPrompt < prompts.length) {
+		// put first prompt in all html elements with class 
+		$('.prompt').html(prompts[currentPrompt] +'<br><input type="text">');
+		// move the next prompt into variable currentPrompt 
+		currentPrompt = currentPrompt + 1;
+	}
+	//or else if we're at the end of the array
+	else {
+		// put a new message into the html.
+		showFinal();
+	}
+}
+
+//puts user answers into HTML
+var showFinal = function() {
+  $('.prompt').html('Hi My Name Is <span class="fill">'+answers[0]+'</span> and i am from <span class="fill"> '+answers[1]+'</span>. My favorite sport is <span class="fill">'+answers[2]+'</span> and I like To play <span class="fill">'+answers[3]+'</span>. My favorite food is <span class="fill">'+answers[4]+'</span> and i like to drink <span class="fill">'+answers[5]+'</span>. My favorite TV show is <span class="fill">'+answers[6]+'</span> and my favorite movie is <span class="fill">'+answers[7]+'</span>. I want to be a <span class="fill">'+answers[8]+'</span> and i go to <span class="fill">'+answers[9]+'</span>. These are some facts about my life.<span class="fill">');
+  //and then hide the button
+  $('button').hide();
+}
+// run nextPrompt function when button is clicked
+$('button').click(function() {
+	nextPrompt();
+});
+
+// Show the first prompt as soon as js loads
+nextPrompt();
+</script>
+
+</body>
