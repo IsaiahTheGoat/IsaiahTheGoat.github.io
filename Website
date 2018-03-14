@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Isaiah's Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #41a0f4;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #f49e42;
+      color: blue;
+      padding: 15px;
+    }
+		body {
+		background: url(https://i.imgur.com/Oiz4wc3.jpg);
+		background-attachment: fixed;
+		
+	  }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}           
+    }
+		h2 {
+			font-family: 'Karma', serif;
+		}
+		p {
+		font-family: 'Quicksand', sans-serif;
+		color: red;
+	}
+  </style>
+</head>
+<body>
+
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Isaiah's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="file:///Users/student/Desktop/suedatisaiahbootstrap1.html#section1">Home</a></li>
+        <li><a href="http://www.espn.com/blog/new-york/knicks">Other Posts</a></li>
+        <li><a href="https://support.contactme.com/hc/en-us">Contact Me</a></li>
+        <li><a href="https://nypost.com/basketball/">Support</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>The New York Knicks</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Isaiah Suedat, Feb 27, 2018.</h5>
+      <h5><span class="label label-danger">Sports</span> <span class="label label-primary">Basketball</span></h5><br>
+      <p>Despite the fact the Knicks held a one-point lead over the almighty Warriors at halftime, a second-half collapse felt inevitable. And it came quickly. The Knicks came out of halftime with their usual pitiful third quarter, getting outscored 39-18, turning a one-point lead to a 20-point deficit. It's amazing how poor this Knicks team is in the third quarter this season. Head coach Jeff Hornacek continues to fail in getting this team to come out firing in the second half. That was the frustrating part about this game. The first half is almost irrelevant for the Knicks.
+
+Knicks fans just want to see a strong effort the final 20 games. The Warriors are just on another level right now with the way the current rosters stack up, and the third quarter represented how everyone thought this game would play out. It was refreshing to see Mudiay finally have a great game and make some 3-pointers for once. It was nice to see Frank Ntilikina take a dozen shots and show some confidence as well. The Knicks did show some promise, but in the end it is another loss and another game closer to this nightmare season's end.</p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>The Knicks Future</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Isaiah Suedat, Feb 27, 2018.</h5>
+      <h5><span class="label label-success">Knicks</span></h5><br>
+      <p>As New York Knicks fans have seen, Tim Hardaway Jr. has been a tireless scorer. He has ramped it up in the past two years, averaging 15.7 points per game. A volume shooter who is shooting 41.3 percent from the field, he’s the second scoring option on the Knicks.
+
+When healthy, Kristaps Porzingis is obviously the leading scorer on this Knicks team.
+
+However, there have been plenty of times when Hardaway has taken the reins as the main scorer during a game. His athleticism and shooting ability make him a very good scorer in this league. His ability to get to the rim with speed and an impressive vertical leads to easy finishes from high-percentage looks.
+
+Hardaway shoots 50.3 percent from inside the three-point line, which is good for a player who averages 7.7 two-pint field goal attempts per game. The 25-year-old shooting guard is also having a career-year in rebounding, averaging 4.0 rebounds per game.
+
+His rebounding average is a rise in 1.2 rebounds per game from 2016, where he averaged his second highest rebound per game rate in his career.
+
+Behind the four point guards on the Knicks roster, Hardaway Jr. averages the most assists on the team with 2.9—another career high.
+
+These numbers may be rising because of his expanded role, but if statistics improve with more minutes, then aren’t the minutes deserved? I believe in the case of Hardaway, they are.
+
+</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHKTcNsIQl2x64yHGLwPuNHYbsmRNqGaytFgLCzBu6-nG-8fP" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>MD<small>Mar 3, 2018, 9:12 PM</small></h4>
+          <p>The knicks are playing like trash right now, they really need to step it up.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://images.solecollector.com/complex/images/c_crop,h_681,w_1200,x_0,y_6/c_fill,f_auto,fl_lossy,q_auto,w_800/gondsz5mmwzhl9zc8wlz/tim-hardaway-jr" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Rob<small>Mar 17, 2018, 8:25 PM</small></h4>
+          <p>I totally agree. The knicks should try to lose as many games as possible to get a good pick in next years draft. Doing this they will get assets for their future and more to build upon.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://vignette.wikia.nocookie.net/logopedia/images/d/de/200px-New_York_Knicks_logo_svg.png/revision/latest?cb=20100915183619" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>I AGREE! <small>March22, 2018, 8:28 PM</small></h4>
+              <p>We will soon be a playoff team once again.</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-heading">Check Out My Store Below!!!</div>
+        <div class="panel-body"><img src="http://goodifitgoes.com/wp-content/uploads/2016/09/knicks-logo.jpg" class="img-responsive" style="width:50%" alt="Image"></div>
+        <div class="panel-footer">Everything on Sale Right Now 10% Off Any Purchase</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Buy one get one free only for the next 24hrs!!!</div>
+        <div class="panel-body"><img src="https://images-na.ssl-images-amazon.com/images/I/51cGiTqgotL._SY355_.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Kristaps Porzingis Home Jersey $79.99</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">Only available until 3/14/18</div>
+        <div class="panel-body"><img src="http://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages%2F_2968000%2Fff_2968742_full.jpg&w=600" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Kristaps Porzingis City Jersey $99.99</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Buy one get one 35% off</div>
+        <div class="panel-body"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3BZN7QbdUH0An9QttUmcDM5P3bjcf_noPPWwfWbNAUowVy2iQ" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Knicks Hat $19.99</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Get yourself a pair right now! Loose and comfortable!</div>
+        <div class="panel-body"><img src="http://www.keith-simmons.com/images/nbajersey/nba%20jersey%20New%20York%20Knicks%20Swingman%20White%20Shorts%20296.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Knicks Shorts $49.99</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Limited edition!</div>
+        <div class="panel-body"><img src="http://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages%2F_2505000%2Fff_2505343_full.jpg&w=600" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Kritstaps Porzingis Limited Christmas Jersey $99.99</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">For More Info On New Merch:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
+
+<footer class="container-fluid">
+  <p>Buy Your Knicks Merch For A Low Price!!!</p>
+</footer>
+
+</body>
+</html>
